@@ -1,0 +1,135 @@
+# Chapter 2: The Methods of Cognitive Neuroscience
+
+> **Early brain mapping in humans**
+>
+> one of the earliest methods used was intracranial electrical stimulation in patients. It's highly invasive but sometimes used in humans to enable neurosurgeons to map the functions of brain regions on or near the site of a tumor, epileptic focus, or other lesion that needs to be dealt with surgically. 
+>
+> Penfield created maps of the sensory and motor cortices of the brain. He established that each of these areas contains complete and separate representations of the various body parts on the contralateral side of the body. One of his intriguing findings is that large expanses of cortex dedicated to some body parts such as the face and hands relative to others. He also reported effects of stimulating temporal lobes on auditory perceptions and the vivid recall of memories. 
+
+## Brain Perturbations That Elucidate Cognitive Functions
+
+### Pertubations imposed by stoke, trauma, or disease
+
+If damage to a brain area or system disrupts a cognitive function, it is likely that the damaged region is involved in some critical way in the performance of that function. 
+
+A major limitation of clinical-pathological correlations in humans is that brain damage is the result of many factors that are not under the control of the experimenter. E.g., although stroke-induced lesions can be relatively focal, they follow vascular-supply boundaries rather than being restricted to functional brain regions, thus a single lesion can have diverse effects on cognitive functions. Moreover, the distribution of brain regions supporting cognitive functions varies among individuals. This variability can be addressed to some degree by combining info about the locus of damage across a group of patients. 
+
+Another way to study the relationship between brain damage and resulting deficits in cognitive functions is by making restricted electrolytic or surgical lesions in experimental animals, including non-human primates. This allows the researcher to control the location and extent of brain damage, limiting it to specific functional areas. However it's difficult to train and assess the animals carrying out cognitive tasks. There are also ethical concerns. 
+
+Problems of lesion studies interpretation: the brain is highly interconnected. If one area is lesioned, other areas of the brain innvervated by the damaged area may cease to function normally from the loss of input (diaschisis). Damage to a cortical area can also damage nearby fiber tracts, disrupting the function of more distant areas. 
+
+Modern neuroimaging methods allows brain lesions to be localised with considerable precision in living patients. Clinical-pathological correlation studies stay continuously relevant. 
+
+### Pharmacological pertubations
+
+Signalling between neurons involves the release of and response to neurotransmitter molecules at synapses. Many drugs interfere with or augment these processes and can change cognitive functions, e.g. caffeine, cocaine, antidepressants. 
+
+Two main forms of pharmacological studies. The first approach is to examine the influence of chronic drug use or abuse on cognitive processes, e.g. the set of cognitive impairments in cocaine addicts, including changes in reward evaluation. Impaired reward evaluation in turn affects the ability to make self-protective decisions and to formulate and pursue successful life strategies. Cocaine specifically activates dopamine receptors, altering the physiology of the dopamine system, which is known to play a major role in reward evaluation. 
+
+Chronic use leads to drug tolerance, which results in further negative consequences. This sort of pharmacological adaptation is familiar to habitual coffee drinkers, who need more caffeine to achieve the same stimulatory effect than do people who drink coffee only occasionally. 
+
+More controlled pharmacological perturbation can be carried out in experimental settings in which a drug is administered acutely and its effects are monitored. E.g. the effect of nicotine on cognitive functions. Nicotine affects neurotransmission mediated by acetylcholine, interacting with cognitive processes that include mood, attention, memory, appetite, and neurological processes that can lead to addiction. Nicotine molecule binds to certain acetylcholine receptors and activates them just as the neurotransmitter acetylcholine itself does. Pharmacological manipulation can lead to inferences about the contribution of the relevant neurotransmitter system to the cognitive processes they affect. 
+
+> Drugs like nicotine that bind to and activate receptors in a manner similar to a neurotransmitter are called **agonists**. Drugs that bind to and block receptors are called **antagonists**. 
+
+A disadvantage of administering drugs systemically (injection into the bloodstream) for studying cognitive processes is the relative lack of specificity of their effects. Much of the brain is exposed to the drug and sorting out the effects on different brain systems can be difficult. 
+
+A more specific intervention is to inject substances directly into specific brain areas of an experimental animal. This approach usually involves surgically implanting a cannula or other drug delivery system that can administer defined amounts of the experimental agent locally and in a highly controlled manner. 
+
+### Perturbation by intracranial brain stimulation
+
+Another way of perturbing brain function is direct electrical stimulation of a specific brain region, used by Charles Sherrington and David Ferrier in late 19th century. Electrodes are placed onto or into the brain of an experimental animal or human patient during a neurosurgical procedure. Electrodes can be placed transiently (just during surgery) or chronically for extended studies of the brain's electrical activity and responses to electrical stimulation. 
+
+In animals, chronically implanted electrodes allow to assess the function of individual neurons or groups of neurons as the animal carries out a cognitive task it has been trained to perform. By altering the strength of the stimulus applied, the effects on the local neuronal population can be varied to provide additional information. E.g. moderate levels of stimulation can activate neurons and trigger behavior that suggests what a given population normally does. Strong stimulation tends to disrupt normal function, and can indicate how the loss of that neuronal population affects a particular cognitive process. The latter way can effectively create a transient and reversible lesion. 
+
+### Perturbation by extracranial brain stimulation
+
+Transcranial magnetic stimulation (TMS) is a far less invasive approach that can disrupt cognitive processing in normal subjects. A strong but transient and rapidly changing magnetic field is generated over a region of the scalp by passing an intense electrical current through a set of coils. The magnetic field induces an electrical field in the underlying brain tissue, resulting in an extraneous flow of current that interacts with local neural processing. This is typically disruptive, creating a reversible brain lesion limited to the underlying area. It can also be facilitative with weaker stimulation. 
+
+Repetitive TMA (rTMS) applies a series of TMS pulses (e.g. one per second) over several minutes. Influence on a cognitive function of interest can then be examined by behavioral tests during and after the TMS application. Depending on the strength of stimulation, TMS can either impair or improve performance on tasks involving the stimulated area. 
+
+Another approach is to deliver a single TMS pulse to a brain area at specific times during the course of a task trial and then study its influence on task performance on that trial. This approach provides greater temporal resolution.
+
+Drawbacks to TMS. First, EMS tends to affect a relatively large area, limiting anatomical resolution. Second, only superficial brain regions can be effectively affected. Third, the technique can result in concurrent stimulation of scalp and head muscles, resulting in unconformable and even painful twitching. Finally, the stimulation entails some risk (triggering seizure). 
+
+Transcranial direct current stimulation (tDCS) is another approach for performing extracarnial brain stimulation, first developed in the 19th century. In tDCS, a constant low-amplitude electrical current is applied directly to the scalp. One electrode is placed over the area of interest to stimulate, and another is placed elsewhere to complete the circuit. There are two main types of stimulation: *anodal* (positive) is thought to increase the cortical excitability of the area; *cathodal* stimulation is to decrease the excitability. Like rTMS, tDCS appears to have effects that last for a period of time (many minutes) after stimulation. The main disadvantages of tDCS include spatial coarseness and a limited understanding of its mechanisms. 
+
+### Optogenetics
+
+Optogenetics is a recently developed technique for selectively stimulating neural circuits far more specifically. It combines genetics with the use of laser light to activate specific neural circuits or neuronal cell types in a variety of experimental settings, including a freely moving and behaving animal. It has both high neuronal selectivity and high temporal resolution. 
+
+The excitability of neuronal membranes is controlled by ion channels that can be induced to open or close to let ions flow into or out of the cell. Normally, such ion channels respond to voltage changes across the cell membrane induced by the binding of neurotransmitters from other neurons. The basic principle of the optogenetics method involves incorporating ion channels that open or close in response to light of a certain wavelength into the neurons of interest. This provides a means of turning them on and off with light. Depending on the type of ion channels incorporated, the neurons can be either excited or inhibited with the light stimulation. 
+
+Typically, genetic material that codes for the manufacture of photoreactive ion channels is extracted from light-sensitive algae and inserted into a virus. The virus can then be injected into a particular brain area of interest. The carrier virus infects targeted neurons near the site of injection, the inserted genetic material then leads to the production of these light-sensitive ion channels and their incorporation into the membranes of the infected neurons. 
+
+This approach has been used to modulate the walking pattern of mice, to alter the escape response of fruit flies, and to reduce disordered movements in mice with motor signs similar to those found in Parkinson's disease. 
+
+## Measuring Neural Activity during Cognitive Processing
+
+### Direct electrophysiological recording from neurons
+
+This is the most common method used in experimental animals. The most popular modern use is single-neuron electrical recording, which entails measuring the action potentials produced by individual neurons either extracellularly or intracelllularly. 
+
+Extracellular recording is done with tine tungsten or steel electrodes that are inserted into the extracellular space in the cerebral cortex or deeper brain structures. The electrode can measure one or more neurons near the tip. 
+
+In intracellular recording, a single neuron must be penetrated by the electrode tip, which then records the electrical activity from within the cell as action potentials and post-synaptic potentials are generated. 
+
+Recently, most such experiments have focused on studies in awake, behaving animals performing specific tasks, typically after extended periods of training. Typically an electrode recording apparatus is attached to the skull over a surgically exposed brain area of interest. The electrode can be moved to different positions above the brain area of interest and also can be advanced a controlled distance into the brain tissue, allowing recording from different parts and depths of the brain region below. 
+
+There are two especially useful approaches to single-unit data acquisition. Peristimulus time histogram (PSTH) depicts the neuronal firing pattern across time in response to the stimulus. Such an approach averages out random background firing when applied over enough trials, giving a much clearer picture of the average response specifically related to the stimulus processing with respect to the task being performed. 
+
+In tuning curves, a stimulus is varied along a particular dimension (e.g. the orientation of a line, the frequency of a tone), and the strength of the response is plotted (usually in terms of spikes per second) as a function of the stimulus parameter being varied. The resulting curve defines the selective sensitivity of the cell to some values of that stimulus parameter relative to others. 
+
+Recently, researchers have started to employ multielectrode recording arrays to evaluate the concurrent responsiveness of sets of neurons in a given area or in related brain regions, instead of single electrodes. 
+
+Some of the basic functions such as those underlying sensory processing are generally amenable to study in nonprimate experimental animals. More complex functions such as attention, decision making, and symbolic representation are more typically undertaken in monkeys. Some cognitive functions such as language or abstract reasoning can be only studied in humans. There is great interest in taking advantage of circumstances in which intracranial electrophysiological recording can be performed in humans e.g. during presurgical cortical mapping procedures. 
+
+### Electroencephalography (EEG)
+
+EEG recordings measure electrical brain waves that can be detected at the scalp. EEG recording is fully noninvasive. It uses a set of surface electrodes which typically are embedded in an elastic cap fitted over the scalp. The voltages at each electrode along with that of a reference electrode placed elsewhere often the mastoid bone behind the ear are fed into differential amplifiers. The amplified signals are then digitized and recorded for subsequent analysis. Frequency of the EEG voltage range from a fraction of 1 hertz to 100 hertz or more. 
+
+EEG signal derives from the summed dendritic field potentials of groups of neurons, rather than action potential. E.g. when there is excitatory synaptic input to the dendrites near the cell body, the voltage across the membrane of the underlying neuronal dendritic trees is depolarized by the synaptic activity. The resulting separation of charge created along the length of the dendrites causes intracellular current flow along the inside of the dendrite as well as conduction of the return current through the tissue volume outside the dendrite. The scalp electrodes pick up the fluctuating voltages associated with these dynamically changing return currents.
+
+Because the nonspike electrical fluctuations that occur in and around the dendritic trees of the large cortical pyramidal cells can also provide important insight into neural processing, more animal researchers recording intracranially are now also studying these slower-frequency dendritic field fluctuations, aka local field potentials (LFPs) when measured intracranially. These field potential fluctuations reflect variations in the polarization of the dendrites due to modulation by axonal input coming from other brain regions. Thus they reflect more of the integrative processing of these large cortical neurons rather than the output firing of the cell to other regions that is reflected in spike recordings. 
+
+Ongoing EEG signals measured over time are widely used clinically to assess brain function. These signals are typically analysed in terms of the power in various frequency bands, including delta (<4 Hz), theta (4-8 Hz), alpha (8-12 Hz), beta (12-25 Hz), gamma (25-70 Hz) and high gamma (70-150 Hz). The relative power in these bands is very useful for assessing the overall state of the brain such as arousal level and sleep stages, as well as for detecting and monitoring the abnormal activity associated with epilepsy. 
+
+### Event-related potentials (ERPs)
+
+ERPs in the most common signals to extract from the ongoing EEG using a time-locked averaging approach, relating scalp electrical activity to cognitive function. ERPs provide high temporal resolution of the neural processing underlying various cognitive functions. However, it is necessary to average multiple trials to extract ERP signals from the background noise. The average ERP trace generally comprises a series of negative and positive peaks that are typically named according to their electrical polarity and their latency or their order in the sequence. 
+
+Information can also be gained from the spatial distribution of the scalp recordings as a way to gain some understanding of the likely sources of the activity. If many electrodes are used, analysis algorithms can be used to estimate the location of the neural generators producing scalp-recorded ERPs. For simple distributions such as ERP waves that reflect relatively early sensory processing, this approach can work reasonably well. However a fundamental problem is the inverse problem: a given distribution of electrical activity recorded at the scalp could have been produced by any one of a number of different sets of generators inside the head. 
+
+Recently there has been increasing interest in event-related averaging approaches applied to oscillatory activity in the EEG signal. This approach differs in several ways from earlier EEG analyses that focused on changes over a relatively extended period of time in the power of different frequency bands. The newer approach extracts the average changes in amplitude (power) or phase coherence (how synchronized the waves are over different cortical regions) in specific frequency bands following (or preceding) a specific type of cognitive event. These time-locked changes in oscillatory activity are associated with cognitive functions including binding of perceptual features, attentional modulation, and cognitive control. 
+
+### Magnetoencephalography (MEG)
+
+MEG is the magnetic conterpart of EEG. It can also be used to extract time-locked responses, called event-related magnetic-field responses (ERFs). The key difference between EEG and MEG is that MEG measures the magnetic fields produced by depolarization in the dendritic trees rather than the associated voltage fluctuations. Knowing the measured field distribution makes it possible to estimate the location and orientation of the underlying source, but the same general limitations imposed by the inverse problem for EEG apply to MEG as well. 
+
+MEG is sensitive to neuronal activity in the sulci and is relatively insensitive to activity in gyri. This sensitivity is due to the orientation of the electrical currents that generate the magnetic fields. 
+
+MEG signals are easier to localize than EEG signals. EEG currents suffer some distortion as they are conducted through the variable resistances of the skull and other tissues. Recordings by MEG and EEG methods together can offer a more complete and effective way to estimate sources and study mechanisms than does either method alone. 
+
+### Positron emission tomography (PET) imaging
+
+The most popular techniques for assessing brain activity related to cognitive functions are those that measure blood flow to visualize active areas of the brain. This is because these techniques have high spacial resolution. 
+
+To meet the demand of active neurons, the local flow of blood to the relevant brain area increases. PET and fMRI measure these local changes in cerebral metabolism and blood flow. 
+
+In positron emission tomography (PET), unstable positron-emitting isotopes are synthesized in a cyclotron by bombarding elements such as oxygen, carbon, or fluorine with protons. Because of its short half-life, the isotope most commonly in PET is oxygen-15. Oxygen-15 is incorporated into water molecules for activity mapping, which is injected into the bloodstream and becomes distributed in the brain. 
+
+As the unstable isotope decays, the extra proton breaks down into a neutron and an emitted positron. The emitted positron travels several millimetres on average until it collides with an electron. The collision destroys both particles, emitting two gamma rays that travel in opposite directions from the site of the collision. Gamma-ray detectors placed around the subject's head are arranged to register a hit only when two detectors 180 degrees apart react simultaneously. By reconstructing the density of these collision lines using computer algorithms, the location of the active regions can be imaged. The PET images of activity can then be superimposed onto MRI structural images from the same subject(s). 
+
+Limitations: the mean distance that the positrons travel in brain tissue before gamma production, as well as spatial smoothing during analysis limits spatial resolution. Moreover, PET activation imaging requires accumulating signal over a minute or so, thus it essentially has no temporal resolution. As a result, functional PET requires a blocked design. Block designs substantially limits the specificity with which brain activation can be associated with particular cognitive processes. 
+
+### Functional magnetic resonance imaging (fMRI)
+
+fMRI is based on the fact that oxyhaemoglobin and deoxyhaemoglobin have different magnetic resonance signals. Within a second or two after an area has been activated by a specific cognitive event or task, the related microvasculature responds to the resulting local oxygen depletion by increasing the flow of new, oxyhaemoglobin-rich arterial blood to the active area. The relative concentration of deoxyhaemoglobin decreases over the next few seconds, leading to localized changes in the magnetic resonance (MR) signal from that part of the brain. These MR changes are called the blood oxygenation level-dependent (BOLD) signal, which is the basis of fMRI. 
+
+fMRI offers better spatial and temporal resolution than PET, and uses intrinsic brain function. 
+
+Most fMRI studies in the 1900s followed the same blocked design as PET studies. But investigators soon realised that fMRI had enough temporal resolution for event-related design. The fMRI response to a stimulus or cognitive event begins at about 1 to 2 seconds, peaks at about 5 to 6 seconds, and returns to baseline at about 12 to 15 seconds. This allows selective averaging of the responses to different event types within a run. Using temporal randomization of the stimulus or task events and modern signal processing algorithms, it is now possible to present stimuli at faster rates and still extract an event-related response. Improved analytic techniques in event-related paradigms made it possible to link the behavioral measures from trial to trial to the corresponding fMRI neural responses. E.g. variations in reaction time could be examined with respect to how they co-varied with the amplitudes of the fMRI responses on a trial basis. 
+
+### Using fMRI to analyse activation patterns within a brain area
+
+The bulk of fMRI research has focused on activations of various brain areas as a function of cognitive conditions. However, there is considerable local organization within one area, which is often overlooked in fMRI studies. A number of approaches aimed at addressing this problem are based on pattern classification algorithms. Within fMRI, multivoxel pattern analysis (MVPA) looks at patterns of activation across voxels that consistently correspond to a particular stimulus type or event type, rather than the overall increase or decrease in activation of a large brain region. 

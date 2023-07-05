@@ -41,3 +41,25 @@ By the earliest 20th century, recording techniques that could track changes in n
 ## Cognitive Neuroscience: The Neurobiological Approach to Cognition
 
 Cognitive neuroscience is defined by work at the intersection of cognitive science and neuroscience. 
+
+Misconceptions from interdisciplinarity. E.g., the misconception that cognitive neuroscience simply maps the brain regions that are activated during a psychological process (neural correlates of cognition). 
+
+Much current research combines information about brain structure and function to create neurobiologically grounded models of cognition. E.g. models of perception and of motor control have been transformed by findings from neuroscience, and it's impossible to consider how these functions work without reference to what is now known of their underlying neural substrates. E.g. recording brain activity during attention tasks found that attention filters stimuli both at initial stages and high-level stages. 
+
+Practical applications of cognitive neurosciences. E.g., individual differences. By linking individual differences in cognition to individual differences in brain function, we have begun to understand the neural bases for both typical and atypical cognition at any stage of the human life span. 
+
+## Methods: Convergence and Complementarity
+
+Convergence describes the approach of combining results from multiple experimental paradigms to illuminate a single theoretical concept. When the same results is observed across a range of experimental tasks, then that commonality leads to a stronger inference than could be drawn form any one experiment. Convergence is often facilitated by meta-analysis. 
+
+Complementarity: because brain function is expressed through many diverse physiological changes, different research methods provide insight into different aspects of physiology: fMRI, EEG, PET, TMS, single-neuron recording, etc. None of these techniques provides a complete accounting of brain function. 
+
+> **Convergence through meta-analysis**
+>
+> Qualitative meta-analysis: a research team first identifies a comprehensive set of studies on the same cognitive function and then looks for similarities among their results. 
+>
+> Quantitative meta-analysis: e.g. in fMRI, activation likelihood estimation: probabilistic maps of combined activation data. 
+>
+> Semantic/Ontological meta-analysis: combines studies according to similarity in their underlying concepts. In scientometrics, meta-analytic methods are applied to the text content and citations of research articles. Patterns of co-citations or co-occurrences of terms in articles can be used to identify relationships between concepts, which in turn can be combined into semantic maps of the literature. 
+
+Some techniques provide info on blood oxygenation (fMRI) induced by neural activity. Others indicate how single (single-unit recording) or send info or integrate information from other neurons (local field potentials and EEG). Perturbation techniques (TMS, drug administration, lesion studies) alter brain function and can be used to evaluate how specific brain regions or systems contribute causally to specific cognitive processes. Each technique has strengths and limitations. 
