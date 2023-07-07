@@ -66,6 +66,12 @@ This approach has been used to modulate the walking pattern of mice, to alter th
 
 ## Measuring Neural Activity during Cognitive Processing
 
+> **Introduction to structural brain imaging techniques**
+>
+> The first technological breakthrough was computerized tomography (CT). CT uses a X-ray tube that is rotated around the patient's head. Compared with traditional X-ray images, CT gathers intensity information from multiple angles. Algorithms can then construct 3D image information for th full volume of the head, in addition to slices or tomograms. 
+>
+> Today, CT is largely replaced by magnetic resonance imaging (MRI) in research. Magnetic: protons in hydrogen atoms of the brain become aligned with the strong magenetic field of the scanner. Perturbation of this alignment can be measured and analysed to construct an image. Resonance: the ability of a system to absorb energy delivered at a particular frequency. Protons in the magnetic field will absorb energy when the energy is delivered at a resonant frequency. During excitation, the MRI scanner emits energy in the form of radio waves. After a few milliseconds, the protons begin to release the energy they absorbed. This released energy is the MR signal, which is measured by electromagnetic detectors. Imaging: coils in the scanner can cause the local magnetic field to differ in strength along specific directions. Varying these magnetic-field gradients, the MR signal is caused to vary correspondingly and systematically along the three axes. Computer can use this to create images of gray matter, white matter, the fluid in the ventricles, and other neural tissues. MRI is noninvasive, has extremely high spatial resolution, and can be sensitive to many different aspects of brain structure (e.g. grey/white matter, ventricles, water diffusion tensor imaging (DTI) for fiber tracts). 
+
 ### Direct electrophysiological recording from neurons
 
 This is the most common method used in experimental animals. The most popular modern use is single-neuron electrical recording, which entails measuring the action potentials produced by individual neurons either extracellularly or intracelllularly. 
@@ -156,7 +162,37 @@ One approach is based on hemodynamic changes in response to neural activity. To 
 
 Another technique, known as event-related optical signals (EROS), uuses optical methods based on a very different activity-dependent mechanism and can be applied noninvasively. When brain tissue is illuminated even through the skull, the amount of light that is transmitted versus scattered varies as a function of whether the neuronal tissue is electrically active. This difference is thought to arise from changes that occur in neuronal membranes and their immediate surroundings during electrical activity. These changes can be detected and images using three-dimensional computer-assisted reconstruction algorithms. EROS has high temporal resolution but relatively low spatial resolution. However there is no inverse problem in EROS. 
 
+![techniques-summary](/img/techniques-summary.png)
+![techniques-summary2](/img/techniques-summary2.png)
+
+> **Imaging structural connections in the brain**
+>
+> A variant of MRI known as diffusion-weighted imaging can delienate the white matter fiber tracts of the brain. The basis is that water molecules in living structures including the brain are always moving slightly within their local area. This movement or diffusion of water molecules affects the MR signals arising from the local voxels. Because the cellular environments experienced by the different water molecules differ across the brain, the diffusion characteristics vary as well. MRI can become sensitive to the amount of local diffusion, enabling the construction of diffusion-weighted images that reflect the diffusion characteristics across the brain. 
+>
+> Diffusion tensor imaging (DTI) quantifies the relative diffusivity of the water molecules in each voxel into directional components. Water tends to diffuse more along fiber tract than across them because myelin is highly hydrophobic. Thus white matter shows more anistropy (has a preferred direction) in its diffusion than other brain regions which tend to be isotropic (no preferred direction). 
+>
+> Fractional anistropy (FA) is a scalar quantity that can be computed for each voxel to express this degree of anistropy. Some neurological diseases e.g. sclerosis and vascular dementia are characterised by white matter pathology than can be identified with FA measures. Individual differences in white matter integrity can also be identified with FA. 
+>
+> Tractography is a powerful application of the DTI tech that can delineate the directionality of fiber tracts in the brain. 
+
 ## Assembling Evidence and Delineating Mechanisms
 
 ### Associations and dissociations
 
+Association: experimentally associate specific cognitive functions with the neural structures and/or local neural activity that underlie them.
+
+Dissociation: determine cognitive functions and neural processes that do not seem to be related. 
+
+Double dissociation: E.g. impairment in task A but not B, impairment in task B but not A, shows systems A and B are dissociated. Double dissociations provide more definitive evidence because single dissociation could arise from a general factor (e.g. difficulty of task) rather than engagement of separable functions. 
+
+Often neural systems are only partially separable (e.g. impairment of task A and slightly disturbed performance of task B). This suggests that these systems interact to some degree. 
+
+### Multimethodological approaches
+
+Info gleaned from different methodologies can be related across studies to synthesize findings pertinent to particular functions. We can also directly combine info across methodologies within the same or linked studies. 
+
+E.g. using data from PET or fMRI to help source analysis of ERP or MEG. 
+
+E.g. simultaneous EEG and fMRI. Allows trial-to-trial analysis. 
+
+E.g. linking functional imaging in healthy individuals with similar studies in lesion patients. 
