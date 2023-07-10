@@ -1,0 +1,27 @@
+---
+layout: base
+---
+<article class="post">
+  <header class="post-header">
+    {%- if page.title -%}
+      <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+  </header>
+
+  <div class="post-content">
+
+    {{ content }}
+
+    <ul style="list-style-type: none">
+    {% for post in site.categories[page.category] reversed %}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</article>

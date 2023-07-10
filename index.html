@@ -1,0 +1,14 @@
+---
+layout: base
+title: 'List'
+---
+
+<h1>Reading notes</h1>
+
+<ul>
+    {% for cat in site.categories %}
+    <li>
+        <h3><a class="post-link" href="{{ cat[0] | slugify }}">{{ cat[0] }}</a></h3>
+    </li>
+    {% endfor %}
+</ul>
