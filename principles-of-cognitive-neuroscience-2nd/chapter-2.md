@@ -174,6 +174,10 @@ Another technique, known as event-related optical signals (EROS), uuses optical 
 > Fractional anistropy (FA) is a scalar quantity that can be computed for each voxel to express this degree of anistropy. Some neurological diseases e.g. sclerosis and vascular dementia are characterised by white matter pathology than can be identified with FA measures. Individual differences in white matter integrity can also be identified with FA. 
 >
 > Tractography is a powerful application of the DTI tech that can delineate the directionality of fiber tracts in the brain. 
+>
+> DTI can be used in conjunction with fMRI activation studies in several ways. fMRI activation data can help guide the tractography calculations. DTI delineated fiber tracts can be used to help in functional connectivity analyses. 
+>
+> From a microscopic standpoint, much work is also aimed toward the goal of reconstructing the connectivity of the entire human brain at the level of neurons and synapses (connectomics). E.g. Brainbow is based on molecular genetics techniques used to delineate individual neurons and their branches by fluorescence in different colors. However connectomics faces difficulties as it needs high cost but has uncertain outcomes. 
 
 ## Assembling Evidence and Delineating Mechanisms
 
@@ -196,3 +200,13 @@ E.g. using data from PET or fMRI to help source analysis of ERP or MEG.
 E.g. simultaneous EEG and fMRI. Allows trial-to-trial analysis. 
 
 E.g. linking functional imaging in healthy individuals with similar studies in lesion patients. 
+
+> **Neuroimaging genomics**
+>
+> Variations in a gene or segment of DNA are called polymorphisms, and these genetic variations can be associated with a greater risk of various neurological and psychiatric disorders. The expression of genetic variations in the brain can be manifested in both structural and functional neuroimaging data. Neuroimaging genomics refers to the application of imaging technologies to investigate how these genes are expressed in the brain. 
+>
+> E.g. using fMRI to investigate memory in individuals with varying degrees of risk for Alzheimers dementia. Alzheimer risk is associated with a gene APOE. During memory task, people with greater risk show greater activation in the hippocampus and other memory-related areas. 
+>
+> There are also interest in the genetic influences on the transmitter systems involved in various cognitive functions. E.g. certain genetic alleles have been associated with greater levels of serotonin in key areas, and these individuals also show greater levels of anxiety in stress. 
+>
+> There's a growing school of thought that many psychiatric clinical syndromes represent one end of a genetic spectrum of individual differences in specific traits. 
