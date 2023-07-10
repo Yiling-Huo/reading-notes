@@ -47,4 +47,71 @@ Info from a specific sensation must be integrated with info being processed by t
 
 ### Topography
 
-The organization of the receptors in the retina is reflected int he corresponding regions of both the thalamus and the visual cortex. 
+The organization of the receptors in the retina is reflected in the corresponding regions of both the thalamus and the visual cortex. Topography is particularly apparent in the primary sensory cortices especially vision and somatosensory. The topography of the retina and the topography of the retina image is reestablished in both the thalamus and the cortex. The reason for the topographical layout of the primary visual system is unclear, it's likely that topography is mainly to do with minimizing neuronal wiring. 
+
+### Cortical magnification
+
+The size of each unit area of the retinal surface is disproportionately represented at the level of the cortex. A square degree of visual space in the fovea is represented by much more cortical area than the same unit area in the peripheral retina (cortical magnification). The idea that more complex neural processing requires more cortical or subcortical space is another general principle in the organization of sensory systems. 
+
+### Cortical modularity
+
+Primary and some secondary visual cortical areas are organised in iterated groups of neurons with similar functional properties. Each of these iterated units consists of hundreds or thousands of nerve cells, and together they are cortical modules or cortical columns. 
+
+Despite highly regular structure, the function of cortical columns remains unclear. Little cross-species similarity in cortical columns. Many regions don't show columns. No clear rationale of such columns. 
+
+### Visual receptive fields
+
+The receptive field of a visual neuron is defined as the region of the retina that, when stimulated, elicits a response in the neuron being examined. At the level of the retinal output and thalamus, visual neurons respond to spots of light. The receptive fields of retinal ganglion cells or lateral geniculate neurons are excited or inhibited by light going on or off in the center of the retinal area they respond to.
+
+At the level of the cortex, the responses become more complex^[Each V1 neuron has two receptive fields, one per each eye. V1 neurons can be categorised into two types depending on the shape of their receptive fields: simple and complex. Simple and complex are not categorical but spectral. Simple V1 neurons have an ON receptive region where the neuron will respond to brighter stimuli over grey background and an OFF region where the neuron responds to darker stimuli. In simple neurons these fields are separated. In complex V1 neurons the ON and OFF regions are superimposed. V1 neurons show selectivity over orientation, spatial and temporal frequency, direction of motion, disparity (distance), and color]. However typically the receptive fields of cortical neurons serving foveal vision in the primary visual cortex generally measure less than a degree of visual angle, and a few degrees for peripheral vision. 
+
+In higher-order extrastriate cortical areas, receptive fields often cover a substantial fraction of the entire visual field (which extends about 180 degrees horizontally and 130 degrees vertically). Topography is less apparent in the higher-order regions. 
+
+Up to the level of primary visual cortex, the organization of the visual system is hierarchical in the sense that lower-order stations lead anatomically and functionally to higher-order ones, albeit with modulation and feedback at each stage. Beyond these initial levels, rationalizing the organization of the visual system in terms of lower-order neurons shaping the response properties of higher-order neurons becomes increasingly difficult. The higher order of the nerve cells in the system, the less they depend on visual input, and the more they are influenced by information that is not strictly visual. 
+
+## Visual perception
+
+The primary visual qualities that describe visual perception are lightness, brightness, color, form, depth, and motion. 
+
+### Lightness and brightness
+
+Lightness refers to the appearance of a surface such as a piece of paper. Brightness refers to the appearance of a light source such as the sun. Vision is impossible without these, unless some other qualities such as color which are expendable. The physical correlate of brightness is luminance, however the relationship between luminance and lightness/brightness is puzzling. 
+
+Perceptions of lightness/brightness fail to be directly proportional to luminance. E.g. simultaneous lightness/brightness contrast. 
+
+The sources of luminance values are not specified in retinal images. Retinal luminance is determined by three basic aspects of the physical world: the illumination of objects, the reflectance of object surfaces, and the transmittance of the space between the objects and the observer. Difference combinations of these can give rise to the same value of luminance. There is no logical or direct way to generate a particular retinal luminance value. Vision system has evolved to solve the inverse optics problem by interpreting lightness/brightness according to past experience with the success or failure of behavior in response to different combinations of the physical factors. In this framework, lightness/brightness perceptions would correspond to the relative frequency with which different possible combinations have proved to be the source of the same or similar stimuli. Today's neuroscientists propose the idea that vision and the neural connections that underlie it depend entirely on trial-and-error experience. In this conception, the lightness/brightness values seen by the observer accord with the behavioral significance of stimuli rather than physical intensities of light. 
+
+### Color
+
+Color is the perceptual category generated by the distribution of light across the visible spectrum, the relative amounts of light energy at different wavelengths. Perception of color consists of three qualities: hue, saturation, and color brightness. These three qualities describe a color space. 
+
+In humans, seeing color is based on the different absorption properties of three different cone types with different photopigments (cone opsins), so human vision is trichromats. A common disorder of human color perception arises from a genetic defect in one or more of the three cone types. 
+
+Explanations of color vision based on retinal output from the three human cone types have been inadequate in much the same way that retinal output determined by luminance does not adequately explain the lightness/brightness perception. Just like lightness/brightness, the color we see is strongly influenced by the rest of the scene. E.g. color contrast and color constancy. 
+
+Contextual color perception led to a debate about how global information about the spectral context in scenes is integrated with local spectral information to produce color percepts. The answer again may be that the colors we see are determined empirically to meet the challenge presented by the inherent ambiguity of light stimuli. 
+
+Extrastriate area V4 is especially important in color processing. Studies on people suffering from cerebral achromatopsia have been informative. These patients lose ability to see the world in color while other aspects of vision are intact, following lesions over an extensive region of the ventral occipital cortex that includes V4. Thus whereas V4 is important to color vision, a number of related extrastriate areas probably participate as well. 
+
+### Form 
+
+Perceptions of form entail simple geometrical characteristics such as the length of lines, their apparent orientation, and the angles they make as they interact other lines. 
+
+Perception of form again does not correspond to physical reality. E.g. variation of perceived length, geometrical illusions. 
+
+Active area in V1 tracked the perceived size rather than the actual size in retinal images (Murray et al 2006). 
+
+#### Distance and depth
+
+Depth is the perception of a three-dimensional world from two-dimensional retinal images. Some aspects of depth are derived from info in the view of one eye alone, but other aspects are apparent only when both eyes are used. Thus depth is usually discussed in its monocular and binocular components. 
+
+Monocular depth perception largely depends on associations learned from experience with the arrangement of objects in space. E.g. occlusion, motion parallax, relationship between size and distance.
+
+Binocular depth perception aka stereopsis arises from the fact that pupils of the eyes are separated horizontally across the face by some distance. Human binocular overlap is about 140 degrees whereas animals with laterally placed eyes have only about 15. Many neurons in both the primary and extrastriate visual cortex of experimental animals have receptive fields that are tuned to specific retinal disparities (prefer one eye or the other?). 
+
+Although we normally view objects with both eyes, the perceived image of the nearby world is a unified one that seems to have been generated from one eye in the middle of the face (cyclopean fusion). How are the two views of each eye conjoined to create a single percept having qualities that are not present in the view of either eye alone? Most explanations depend on the fact that inputs from the two eyes converge on cortical neurons in V1. Many neurons in the deeper and more superficial cortical layers (other than layer 4) in V1 of non-human primates are binocularly driven. Cyclopean vision may arise from this conjuction of right-eye and left-eye inputs at the level of common target cells in the visual cortex. 
+
+However the idea of seeing a cyclopean image by virtue of binocular neurons is incosistent with other evidence such as binocular rivalry. Binocular rivalry refers to the fact that when a particular stimulus pattern is presented to one eye and a strongly discordant pattern is presented to the other eye, the same region of visual space is perceived to be alternately occupied by each pattern but rarely by both. If info is simply unified in the visual cortex the observer would presumably see an integration of two patterns. Other studies have shown that the percepts themselves can be the source of competition. Therefore there have been no consensus about the basis of binocular fusion and rivalry. 
+
+### Motion
+
