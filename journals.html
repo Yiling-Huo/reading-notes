@@ -1,0 +1,53 @@
+---
+layout: base
+title: Journals
+permalink: /journals/
+---
+
+{% assign strJourList = '' %}
+{% for post in site.posts %}
+    {% if post.journal %}
+        {% if strJourList contains post.journal %}
+            {% assign strJourList = strJourList %}
+        {% else %}
+            {% assign strJourList = strJourList | append: ',' | append: post.journal %}
+        {% endif %}
+    {% endif %}
+{% endfor%}
+
+{% assign jourList = strJourList | remove_first: ',' | split: ',' | sort %}
+
+<style>
+h3{
+    padding: 1em 0 0 0;
+    margin: 0px;
+}
+</style>
+
+<div class="home">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+    <div>
+        {% for journal in jourList %}
+        <a href="#{{ journal | slugify }}" class="post-tag">{{ journal }}</a>
+        &#160 &#160
+        {% endfor %}
+    </div>
+    <hr class="brand"/>
+    <div>
+        {% for journal in jourList %}
+        <h3 id="{{ journal | slugify }}">{{ journal }}</h3>
+        <ul style="list-style-type: none;">
+            {% for post in site.posts %}
+                {% if post.journal == journal %}
+                <li>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                <small>{{ post.date | date_to_string }}</small>
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </div>
+</div>

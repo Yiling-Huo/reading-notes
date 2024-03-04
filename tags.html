@@ -1,0 +1,47 @@
+---
+layout: base
+title: Tags
+permalink: /tags/
+---
+
+<style>
+h3{
+    padding: 1em 0 0 0;
+    margin: 0px;
+}
+</style>
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {% assign sorted_tags = site.tags | sort %}
+
+  <div>
+    <div>
+      {% for tag in sorted_tags %}
+        {% assign t = tag | first %}
+        <a href="#{{ t | slugify }}" class="post-tag">{{ t }}</a>
+        &#160 &#160
+      {% endfor %}
+    </div>
+    <hr class="brand"/>
+    <div>
+      {% for tag in sorted_tags %}
+        {% assign t = tag | first %}
+        {% assign posts = tag | last %}
+        <h3 id="{{ t | slugify }}">{{ t }}</h3>
+        <ul style="list-style-type: none;">
+          {% for post in posts %}
+          <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <small>{{ post.date | date_to_string }}</small>
+          </li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>

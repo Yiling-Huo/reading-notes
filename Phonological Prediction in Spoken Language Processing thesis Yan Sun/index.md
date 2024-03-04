@@ -1,5 +1,5 @@
 ---
-layout: toc
+layout: toc-books
 permalink: /phonological-prediction-in-spoken-language-processing-thesis-yan-sun/
 category: 'Phonological Prediction in Spoken Language Processing thesis Yan Sun'
 title: 'Phonological Prediction in Spoken Language Processing, PhD thesis, Yan Sun'

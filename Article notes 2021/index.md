@@ -1,5 +1,5 @@
 ---
-layout: toc
+layout: toc-articles
 permalink: /article-notes-2021/
 category: 'Article notes 2021'
 title: 'Article notes 2021'

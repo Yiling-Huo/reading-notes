@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Reading notes by Yiling Huo. Local serve only. 
+  Reading notes by Yiling Huo. Local serve only for figures copyright reasons. 
 
 # Build settings
 
@@ -14,6 +14,8 @@ description: >
 
 header_pages:
   - index.html
+  - tags.html
+  - journals.html
 
 plugins:
   - jekyll-feed
