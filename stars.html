@@ -1,0 +1,56 @@
+---
+layout: base
+permalink: /stars/
+category: 'Stars'
+title: 'Stars'
+---
+
+{% assign strStarList = '' %}
+{% for post in site.posts %}
+    {% if post.star %}
+        {% for tag in post.star %}
+        {% if strStarList contains tag %}
+            {% assign strStarList = strStarList %}
+        {% else %}
+            {% assign strStarList = strStarList | append: ',' | append: tag %}
+        {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor%}
+
+{% assign starList = strStarList | remove_first: ',' | split: ',' | sort %}
+
+<style>
+h3{
+    padding: 1em 0 0 0;
+    margin: 0px;
+}
+</style>
+
+<div class="home">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+    <div>
+        {% for tag in starList %}
+        <a href="#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+        &#160 &#160
+        {% endfor %}
+    </div>
+    <hr class="brand"/>
+    <div>
+        {% for tag in starList %}
+        <h3 id="{{ tag | slugify }}">{{ tag }}</h3>
+        <ul style="list-style-type: none;">
+            {% for post in site.posts %}
+                {% if post.star contains tag %}
+                <li>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                <small>{{ post.date | date_to_string }}</small>
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </div>
+</div>

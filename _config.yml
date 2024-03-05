@@ -14,6 +14,7 @@ description: >
 
 header_pages:
   - index.html
+  - stars.html
   - tags.html
   - journals.html
 
