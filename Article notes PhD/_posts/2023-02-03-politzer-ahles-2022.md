@@ -2,7 +2,7 @@
 layout: post
 title: (Politzer-Ahles et al., 2022). N400 Evidence That the Early Stages of Lexical Access Ignore Knowledge About Phonological Alternations
 date: 2023-02-03 14:00
-author: Yiling Huo
+author: Politzer-Ahles, Stephen and Lin, Jueyao and Pan, Lei and Lee, Ka Keung
 tags: ['Mandarin Chinese', 'lexical tones', 'tone sandhi', 'tone perception', 'EEG', 'ERP', 'N400']
 journal: Language and Speech
 link: https://doi.org/10.1177/00238309211020026

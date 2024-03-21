@@ -2,7 +2,7 @@
 layout: post
 title: (Sanders, L. D., & Neville, H. J., 2003) An ERP study of continuous speech processing - I. Segmentation, semantics, and syntax in native speakers
 date: 2022-04-24 21:16
-author: Yiling Huo
+author: Sanders, Lisa D and Neville, Helen J
 tags: ['English', 'nonwords', 'speech perception', 'speech segmentation', 'temporal parsing', 'EEG', 'ERP', 'N1']
 journal: Cognitive Brain Research
 link: https://doi.org/10.1016/S0926-6410(02)00195-7

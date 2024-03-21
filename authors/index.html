@@ -1,0 +1,58 @@
+---
+layout: base
+title: Authors
+permalink: /authors/
+---
+
+{% assign strAuList = '' %}
+{% for post in site.posts %}
+    {% if post.author %}
+        {% assign page_author_list = post.author | split: " and " %}
+        {% for author in page_author_list%}
+            {% if strAuList contains author %}
+                {% assign strAuList = strAuList %}
+            {% else %}
+                {% assign strAuList = strAuList | append: '&' | append: author %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor%}
+
+{% assign AuList = strAuList | remove_first: '&' | split: '&' | sort %}
+
+{% assign initial_str = '' %}
+{% for author in AuList %}
+    {% assign initial = author | slice: 0 | capitalize %}
+    {% if initial_str contains initial %}
+        {% assign initial_str = initial_str %}
+    {% else %}
+        {% assign initial_str = initial_str | append: '&' | append: initial %}
+    {% endif %}
+{% endfor %}
+
+{% assign initList = initial_str| remove_first: '&' | split: '&' | sort %}
+
+<div class="home">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+    <div>
+        {% for initial in initList %}
+        <a href="#{{ initial | slugify }}" class="post-tag">{{ initial }}</a>
+        &#160 &#160
+        {% endfor %}
+    </div>
+    <hr class="brand"/>
+    <div>
+        {% for initial in initList %}
+        <p><h4 id="{{ initial | slugify }}">{{ initial }}</h4></p>
+            {% for author in AuList %}
+            {% assign author_cleaned = author | replace: ', ', '-' %}
+            {% assign author_initial = author | slice: 0 | capitalize %}
+                {% if author_initial == initial %}
+                <p><a href="{{ site.baseurl }}/authors/author/{{ author_cleaned | slugify }}/">{{ author }}</a></p>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>

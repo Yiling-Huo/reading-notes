@@ -1,6 +1,13 @@
 ---
 layout: base
 ---
+<style>
+  li{
+      padding: 0 0 0.5em 0;
+      margin: 0px;
+  }
+</style>
+
 <article class="post">
   <header class="post-header">
     {%- if page.title -%}
@@ -15,11 +22,9 @@ layout: base
     <ul style="list-style-type: none">
     {% for post in site.categories[page.category] %}
       <li>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+          <a href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
-          </a>
-        </h3>
+          </a><small>{{ post.date | date_to_string }}</small>
       </li>
     {% endfor %}
     </ul>
