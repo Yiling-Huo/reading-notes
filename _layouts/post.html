@@ -21,23 +21,30 @@ layout: base
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
-      <!-- {%- if page.author -%}
-        • {% for author in page.author %}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-            {%- if forloop.last == false %}, {% endif -%}
-        {% endfor %}
-      {%- endif -%} -->
-      {%- if page.author -%}
-      • 
-      {% assign authors = page.author | split: " and " %}
-        {%- for author in authors -%}
-        {% assign last_first = author | split: ", " %}
-        <span class="p-author h-card" itemprop="name">{{ last_first | slice: 1 }} {{ last_first | slice: 0}}</span>
-        {%- if forloop.last == false %}, {% endif -%}
-        {%- endfor -%}
-      {%- endif -%}
     </p>
+    {%- if page.author -%}
+      <p class="post-meta">
+        <!-- {%- if page.author -%}
+          • {% for author in page.author %}
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+              {%- if forloop.last == false %}, {% endif -%}
+          {% endfor %}
+        {%- endif -%} -->
+        {% assign authors = page.author | split: " and " %}
+          {%- for author in authors -%}
+          {% assign last_first = author | split: ", " %}
+          <span class="p-author h-card" itemprop="name">{{ last_first | slice: 1 }} {{ last_first | slice: 0}}</span>
+          {%- if forloop.last == false %}, {% endif -%}
+          {%- endfor -%}
+      </p>
+    {%- endif -%}
+    {%- if page.journal -%}
+    <p class="post-meta">
+        {{ page.journal }}
+    </p>
+    {%- endif -%}
+
   </header>
 
   {%- if page.tags -%}
