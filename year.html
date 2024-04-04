@@ -41,12 +41,12 @@ h3{
         <ul style="list-style-type: none;">
             {% for post in site.posts %}
                 {% if post.year %}
-                    {% assign strYear = post.year | string %}
+                    {% assign strYear = post.year | append: "" %}
                     {% if strYear == year %}
                     <li>
                     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                     <small>
-                        {{ post.date | date_to_string }}
+                        <!-- {{ post.date | date_to_string }} -->
                         {%- if post.author -%}
                         • 
                         {% assign authors = post.author | split: " and " %}

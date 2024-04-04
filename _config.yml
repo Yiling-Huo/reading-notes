@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Reading notes by Yiling Huo. Local serve only for figures copyright reasons. 
+  Reading notes by Yiling Huo.
 
 # Build settings
 

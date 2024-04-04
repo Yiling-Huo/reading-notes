@@ -43,7 +43,9 @@ h3{
                 {% if post.journal == journal %}
                 <li>
                 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                <small>{{ post.date | date_to_string }}</small>
+                {% if post.year %}
+                <small>{{ post.year }}</small>
+                {% endif %}
                 </li>
                 {% endif %}
             {% endfor %}
