@@ -19,22 +19,22 @@ year: 2003
 
 ## Design
 
-![design](/img/articles-phd/sanders-2003-1.png)
+![design](/reading-notes/img/articles-phd/sanders-2003-1.png)
 
 ## Results
 
 ### Word-initial vs word-medial
 
-![results1](/img/articles-phd/sanders-2003-2.png)
+![results1](/reading-notes/img/articles-phd/sanders-2003-2.png)
 
 ### Stressed vs unstressed
 
-![results2](/img/articles-phd/sanders-2003-3.png)
+![results2](/reading-notes/img/articles-phd/sanders-2003-3.png)
 
 ### words vs nonwords
 
-![results3](/img/articles-phd/sanders-2003-4.png)
+![results3](/reading-notes/img/articles-phd/sanders-2003-4.png)
 
 ### Nonwords in sentence vs nonwords in sentence-like nonword list
 
-![results4](/img/articles-phd/sanders-2003-5.png)
+![results4](/reading-notes/img/articles-phd/sanders-2003-5.png)

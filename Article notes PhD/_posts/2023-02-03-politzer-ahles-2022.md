@@ -27,7 +27,7 @@ Participant sees a single character on screen, then hear a single syllable with 
 
 both related violation and unrelated violation elicited N400. But there was no difference between related and unrelated. Further, there was no difference in hearing T3 or T2. 
 
-![result1](/img/articles-phd/politzer-ahles-2022-1.png)
+![result1](/reading-notes/img/articles-phd/politzer-ahles-2022-1.png)
 
 ## Exp 2: monosyllabic visual - disyllabic auditory ERP
 
@@ -45,7 +45,7 @@ Note that in all of their conditions, there was no actual T3 sandhi in the stimu
 
 same as exp 1. both violations elicited N400 but there was no difference between the two types of violation. 
 
-![result2](/img/articles-phd/politzer-ahles-2022-2.png)
+![result2](/reading-notes/img/articles-phd/politzer-ahles-2022-2.png)
 
 ## Discussion
 
