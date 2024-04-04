@@ -50,7 +50,7 @@ permalink: /authors/
             {% assign author_cleaned = author | replace: ', ', '-' %}
             {% assign author_initial = author | slice: 0 | capitalize %}
                 {% if author_initial == initial %}
-                <p><a href="{{ site.baseurl }}/authors/author/{{ author_cleaned | slugify }}/">{{ author }}</a></p>
+                <p><a href="{{ site.baseurl }}/authors/author/{{ author_cleaned | slugify }}">{{ author }}</a></p>
                 {% endif %}
             {% endfor %}
         {% endfor %}
