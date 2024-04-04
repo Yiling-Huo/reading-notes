@@ -227,6 +227,11 @@
   color: $brand-color;
 }
 
+.post-meta-ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
 .post-link {
   display: block;
   @include relative-font-size(1.5);
