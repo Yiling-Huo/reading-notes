@@ -8,7 +8,7 @@ permalink: /authors/
 {% for post in site.posts %}
     {% if post.author %}
         {% assign page_author_list = post.author | split: " and " %}
-        {% for author in page_author_list%}
+        {% for author in page_author_list %}
             {% if strAuList contains author %}
                 {% assign strAuList = strAuList %}
             {% else %}

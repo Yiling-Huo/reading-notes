@@ -6,6 +6,7 @@ author: Sanders, Lisa D and Neville, Helen J
 tags: ['English', 'nonwords', 'speech perception', 'speech segmentation', 'temporal parsing', 'EEG', 'ERP', 'N1']
 journal: Cognitive Brain Research
 link: https://doi.org/10.1016/S0926-6410(02)00195-7
+year: 2003
 ---
 
 ## Abstract

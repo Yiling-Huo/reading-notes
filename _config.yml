@@ -17,6 +17,7 @@ header_pages:
   - stars.html
   - tags.html
   - authors/index.html
+  - year.html
   - journals.html
 
 plugins:

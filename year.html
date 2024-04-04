@@ -1,0 +1,67 @@
+---
+layout: base
+title: Year
+permalink: /year/
+---
+
+{% assign strYearList = '' %}
+{% for post in site.posts %}
+    {% if post.year %}
+        {% if strYearList contains post.year %}
+            {% assign strYearList = strYearList %}
+        {% else %}
+            {% assign strYearList = strYearList | append: ',' | append: post.year %}
+        {% endif %}
+    {% endif %}
+{% endfor%}
+
+{% assign yearList = strYearList | remove_first: ',' | split: ',' | sort | reverse %}
+
+<style>
+h3{
+    padding: 1em 0 0 0;
+    margin: 0px;
+}
+</style>
+
+<div class="home">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+    <div>
+        {% for year in yearList %}
+        <a href="#{{ year | slugify }}" class="post-tag">{{ year }}</a>
+        &#160 &#160
+        {% endfor %}
+    </div>
+    <hr class="brand"/>
+    <div>
+        {% for year in yearList %}
+        <h3 id="{{ year | slugify }}">{{ year }}</h3>
+        <ul style="list-style-type: none;">
+            {% for post in site.posts %}
+                {% if post.year %}
+                    {% assign strYear = post.year | string %}
+                    {% if strYear == year %}
+                    <li>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    <small>
+                        {{ post.date | date_to_string }}
+                        {%- if post.author -%}
+                        • 
+                        {% assign authors = post.author | split: " and " %}
+                            {%- for author in authors -%}
+                            {% assign last_first = author | split: ", " %}
+                            <span class="p-author h-card" itemprop="name">{{ last_first | slice: 1 }} {{ last_first | slice: 0}}</span>
+                            {%- if forloop.last == false %}, {% endif -%}
+                            {%- endfor -%}
+                        {%- endif -%}
+                    </small>
+                    </li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </div>
+</div>

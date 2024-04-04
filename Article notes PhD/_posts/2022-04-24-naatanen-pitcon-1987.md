@@ -6,6 +6,7 @@ author: Näätänen, Risto and Picton, Terence
 tags: ['review', 'N1', 'auditory processing']
 journal: Psychophysiology
 link: https://doi.org/10.1111/j.1469-8986.1987.tb00311.x
+year: 1987
 ---
 
 N1 has three 'true' components that are associated with acoustic stimuli

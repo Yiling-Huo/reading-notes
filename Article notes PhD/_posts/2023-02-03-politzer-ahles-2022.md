@@ -6,6 +6,7 @@ author: Politzer-Ahles, Stephen and Lin, Jueyao and Pan, Lei and Lee, Ka Keung
 tags: ['Mandarin Chinese', 'lexical tones', 'tone sandhi', 'tone perception', 'EEG', 'ERP', 'N400']
 journal: Language and Speech
 link: https://doi.org/10.1177/00238309211020026
+year: 2022
 ---
 
 ## Intro
@@ -48,4 +49,4 @@ same as exp 1. both violations elicited N400 but there was no difference between
 
 ## Discussion
 
-Maybe when people expect a syllable they always expect things in the base form, and in the lexical access stage (N400 window), the brain does not distinguish what could be a possible alternative form of the syllable. (i.e. sees 使, always expect shi3 and does not know that shi2 could be a possible version, therefor hearing shi2 elicits the same N400 as hearing shi4). 
+Maybe when people expect a syllable they always expect things in the base form, and in the lexical access stage (N400 window), the brain does not distinguish what could be a possible alternative form of the syllable. (i.e. sees 使, always expect shi3 and does not know that shi2 could be a possible version, therefor hearing shi2 elicits the same N400 as hearing shi4).
