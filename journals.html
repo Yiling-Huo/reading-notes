@@ -18,39 +18,42 @@ permalink: /journals/
 
 {% assign jourList = strJourList | remove: '%' | remove_first: '£' | split: '£' | sort %}
 
-<style>
-h3{
-    padding: 1em 0 0 0;
-    margin: 0px;
-}
-</style>
+{% assign initial_str = '' %}
+{% for journal in jourList %}
+    {% assign initial = journal | slice: 0 | capitalize %}
+    {% if initial_str contains initial %}
+        {% assign initial_str = initial_str %}
+    {% else %}
+        {% assign initial_str = initial_str | append: '£' | append: initial %}
+    {% endif %}
+{% endfor %}
+
+{% assign initList = initial_str | remove_first: '£' | split: '£' | sort %}
 
 <div class="home">
     {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
+
     <div>
-        {% for journal in jourList %}
-        <a href="#{{ journal | slugify }}" class="post-tag">{{ journal }}</a>
-        &#160 &#160
-        {% endfor %}
+    {% for initial in initList %}
+    <a href="#{{ initial | slugify }}" class="post-tag">{{ initial }}</a>
+    &#160 &#160
+    {% endfor %}
     </div>
     <hr class="brand"/>
     <div>
+    {% for initial in initList %}
+    {% assign initial_lower = initial | downcase %}
+    <p><h4 id="{{ initial | slugify }}">{{ initial }}</h4></p>
+    <ul class="post-meta-ul">
         {% for journal in jourList %}
-        <h3 id="{{ journal | slugify }}">{{ journal }}</h3>
-        <ul style="list-style-type: none;">
-            {% for post in site.posts %}
-                {% if post.journal == journal %}
-                <li>
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                {% if post.year %}
-                <small>{{ post.year }}</small>
-                {% endif %}
-                </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+        {% assign j0 = journal | slice: 0 %}
+        {% if j0 == initial  or j0 == initial_lower %}
+            <li><a href="{{ site.baseurl }}/journals-all/#{{ journal | slugify }}">{{ journal }}</a></li>
+        {% endif %}
         {% endfor %}
+    </ul>
+    {% endfor %}
     </div>
 </div>
