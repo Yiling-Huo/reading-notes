@@ -7,15 +7,16 @@ permalink: /journals/
 {% assign strJourList = '' %}
 {% for post in site.posts %}
     {% if post.journal %}
-        {% if strJourList contains post.journal %}
+    {% assign jr = '%' | append: post.journal | append: '%' %}
+        {% if strJourList contains jr %}
             {% assign strJourList = strJourList %}
         {% else %}
-            {% assign strJourList = strJourList | append: '£' | append: post.journal %}
+            {% assign strJourList = strJourList | append: '£' | append: jr %}
         {% endif %}
     {% endif %}
 {% endfor%}
 
-{% assign jourList = strJourList | remove_first: '£' | split: '£' | sort %}
+{% assign jourList = strJourList | remove: '%' | remove_first: '£' | split: '£' | sort %}
 
 <style>
 h3{
