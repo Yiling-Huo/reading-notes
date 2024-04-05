@@ -24,7 +24,9 @@ layout: base
             <a href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
             </a>
-            <small>{{ post.date | date_to_string }}</small>
+            {% if post.year %}
+            <small>{{ post.year }}</small>
+            {% endif %}
         </li>
         {% endif %}
     {% endfor %}
