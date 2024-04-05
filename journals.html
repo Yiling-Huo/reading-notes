@@ -10,12 +10,12 @@ permalink: /journals/
         {% if strJourList contains post.journal %}
             {% assign strJourList = strJourList %}
         {% else %}
-            {% assign strJourList = strJourList | append: ',' | append: post.journal %}
+            {% assign strJourList = strJourList | append: '£' | append: post.journal %}
         {% endif %}
     {% endif %}
 {% endfor%}
 
-{% assign jourList = strJourList | remove_first: ',' | split: ',' | sort %}
+{% assign jourList = strJourList | remove_first: '£' | split: '£' | sort %}
 
 <style>
 h3{
