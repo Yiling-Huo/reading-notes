@@ -46,13 +46,15 @@ permalink: /authors/
     <div>
         {% for initial in initList %}
         <p><h4 id="{{ initial | slugify }}">{{ initial }}</h4></p>
+        <ul class="post-meta-ul">
             {% for author in AuList %}
             {% assign author_cleaned = author | replace: ', ', '-' %}
             {% assign author_initial = author | slice: 0 | capitalize %}
                 {% if author_initial == initial %}
-                <p><a href="{{ site.baseurl }}/authors/author/{{ author_cleaned | slugify }}">{{ author }}</a></p>
+                <li><a href="{{ site.baseurl }}/authors/author/{{ author_cleaned | slugify }}">{{ author }}</a></li>
                 {% endif %}
             {% endfor %}
+        </ul>
         {% endfor %}
     </div>
 </div>

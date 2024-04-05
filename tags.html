@@ -4,44 +4,34 @@ title: Tags
 permalink: /tags/
 ---
 
-<style>
-h3{
-    padding: 1em 0 0 0;
-    margin: 0px;
-}
-</style>
-
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {% assign sorted_tags = site.tags | sort %}
+  {% assign caps = "ABCDEFJHIJKLMNOPQRSTUVWXYZ" | split:"" %}
 
   <div>
-    {% for tag in sorted_tags %}
-      {% assign t = tag | first %}
-      <a href="#{{ t | slugify }}" class="post-tag">{{ t }}</a>
-      &#160 &#160
+    {% for initial in caps %}
+    <a href="#{{ initial | slugify }}" class="post-tag">{{ initial }}</a>
+    &#160 &#160
     {% endfor %}
   </div>
   <hr class="brand"/>
   <div>
-    {% for tag in sorted_tags %}
-      {% assign t = tag | first %}
-      {% assign posts = tag | last %}
-      <h3 id="{{ t | slugify }}">{{ t }}</h3>
-      <ul style="list-style-type: none;">
-        {% for post in posts %}
-        <li>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          {% if post.year %}
-          <small>{{ post.year }}</small>
-          {% endif %}
-        </li>
+    {% for initial in caps %}
+    {% assign initial_lower = initial | downcase %}
+    <p><h4 id="{{ initial | slugify }}">{{ initial }}</h4></p>
+    <ul class="post-meta-ul">
+      {% for tag in sorted_tags %}
+        {% assign t = tag | first %}
+        {% assign t0 = t | slice: 0 %}
+        {% if t0 == initial  or t0 == initial_lower %}
+          <li><a href="{{ site.baseurl }}/tags-all/#{{ t | slugify }}">{{ t }}</a></li>
+        {% endif %}
       {% endfor %}
     </ul>
     {% endfor %}
   </div>
-
 </div>
