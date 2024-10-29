@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Giraud, Anne Lise
+author: Giraud, Anne-Lise
 ---

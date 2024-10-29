@@ -12,7 +12,7 @@ def main():
             for i in range(len(content)):
                 if content[i][:9] == 'journal: ':
                     content[i] = content[i].replace(',', '')
-                    content[i][9:] = content[i][9:].replace(':','')
+                    content[i] = content[i][:9] + content[i][9:].replace(':', '')
                     if len(content[i]) <= 10:
                         content.remove(content[i])
                         break
