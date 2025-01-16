@@ -8,5 +8,3 @@ journal: In Proceedings of the International Symposium on Tonal Aspects of Langu
 
 year: 2012
 ---
-
-

@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Schotter, Elizabeth R.
+author: Schotter, Elizabeth R
 ---
