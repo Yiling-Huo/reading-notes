@@ -9,4 +9,4 @@ journal: The Journal of the Acoustical Society of America
 link: https://doi.org/10.1121/1.3508809
 
 year: 2010
-----
+---
