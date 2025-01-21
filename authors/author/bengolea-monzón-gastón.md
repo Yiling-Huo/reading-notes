@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Bengolea Monzón, Gastón
+author: Bengolea Monzón Gastón
 ---

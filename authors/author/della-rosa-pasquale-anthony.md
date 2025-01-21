@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Della Rosa, Pasquale Anthony
+author: Della Rosa Pasquale Anthony
 ---

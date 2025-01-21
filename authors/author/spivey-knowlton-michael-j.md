@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Spivey-Knowlton, Michael J
+author: Spivey-knowlton, Michael J
 ---

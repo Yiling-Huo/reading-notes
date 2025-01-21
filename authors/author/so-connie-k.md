@@ -1,4 +1,4 @@
 ---
 layout: author
-author: So, Connie K
+author: SO, CONNIE K
 ---

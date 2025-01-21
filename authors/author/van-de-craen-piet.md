@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Van De Craen, Piet
+author: Van De Craen Piet
 ---

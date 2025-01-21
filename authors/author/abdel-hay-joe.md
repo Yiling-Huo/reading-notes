@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Abdel Hay, Joe
+author: Abdel Hay Joe
 ---

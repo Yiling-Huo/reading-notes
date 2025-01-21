@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Nunes Filho, Gilberto
+author: Nunes Filho Gilberto
 ---

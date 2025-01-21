@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Van Den Bosch, Antal
+author: Van Den Bosch Antal
 ---

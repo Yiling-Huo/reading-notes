@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Van Schuerbeek, Peter
+author: Van Schuerbeek Peter
 ---

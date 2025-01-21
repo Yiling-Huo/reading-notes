@@ -1,4 +1,4 @@
 ---
 layout: author
-author: De Heer, Wendy A
+author: De Heer Wendy A
 ---

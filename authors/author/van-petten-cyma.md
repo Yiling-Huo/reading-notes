@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Van Petten, Cyma
+author: Van Petten Cyma
 ---

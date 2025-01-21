@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Schreiner, MeLANie S
+author: Schreiner, Melanie S
 ---

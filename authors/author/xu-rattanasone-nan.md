@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Xu Rattanasone, Nan
+author: Xu Rattanasone Nan
 ---

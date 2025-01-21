@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Fernández Slezak, Diego
+author: Fernández Slezak Diego
 ---

@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Tang, Siu Lam
+author: Tang, Siu-Lam
 ---

@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Chen, Hsuan Chih
+author: Chen, Hsuan-Chih
 ---

@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Kuipers, Jan Rouke
+author: Kuipers, Jan-Rouke
 ---

@@ -1,4 +1,4 @@
 ---
 layout: author
-author: De Ochoa-Dewald, Esmeralda
+author: De Ochoa-Dewald Esmeralda
 ---

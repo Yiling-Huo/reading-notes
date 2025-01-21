@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Hyönä, Jukka
+author: Hyönä Jukka
 ---

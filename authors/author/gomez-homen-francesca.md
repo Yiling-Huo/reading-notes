@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Gomez Homen, Francesca
+author: Gomez Homen Francesca
 ---

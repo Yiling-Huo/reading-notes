@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Mäkelä, Jyrki P
+author: Mäkelä Jyrki P
 ---
