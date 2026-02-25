@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Sebastian-galles, Nuria
+author: Sebastián-Gallés, Núria
 ---

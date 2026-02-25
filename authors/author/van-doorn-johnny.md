@@ -1,4 +1,4 @@
 ---
 layout: author
-author: van Doorn, Johnny
+author: Van Doorn, Johnny
 ---

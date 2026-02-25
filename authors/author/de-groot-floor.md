@@ -1,4 +1,4 @@
 ---
 layout: author
-author: de Groot, Floor
+author: De Groot, Floor
 ---

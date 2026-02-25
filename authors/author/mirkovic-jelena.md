@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Mirkovic, Jelena
+author: Mirković, Jelena
 ---

@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Garcia-Sierra, Adrian
+author: García-Sierra, Adrián
 ---

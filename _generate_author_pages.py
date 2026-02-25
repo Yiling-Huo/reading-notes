@@ -1,7 +1,8 @@
 import os
+from unidecode import unidecode
 
 def main():
-    inputdirs = ['Article notes PhD/_posts/reference-generated/','Article notes PhD/_posts/']
+    inputdirs = ['References/_posts/','Article notes PhD/_posts/', 'Article notes 2025/_posts/']
 
     outputdir = 'authors/author/'
     author_list = []
@@ -21,9 +22,10 @@ def main():
     # print(author_list)
 
     for author in author_list:
-        author_slugified = author.replace(', ', '-').replace(' ','-').replace('.','').lower()
+        author_slugified = unidecode(author).replace(', ', '-').replace(' ','-').replace('.','').lower() # use unaccented version for urls
         with open(outputdir+author_slugified+'.md', 'w', encoding='utf-8') as outputf:
             outputf.write('---\nlayout: author\nauthor: '+author+'\n---')
+            print("Author page created: " + author)
 
 if __name__ == "__main__":
     main()

@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Rosler, Frank
+author: Rösler, Frank
 ---

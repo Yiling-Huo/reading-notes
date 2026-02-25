@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Lin, Tzu Hui
+author: Lin, Tzu-Hui
 ---

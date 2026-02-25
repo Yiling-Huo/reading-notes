@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Tsai, Jie Li
+author: Tsai, Jie-Li
 ---

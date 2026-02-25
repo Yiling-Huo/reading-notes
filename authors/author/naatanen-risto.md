@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Naatanen, Risto
+author: Näätänen, Risto
 ---

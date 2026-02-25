@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Harrington-Stack, Caoimhe M
+author: Harrington Stack, Caoimhe M
 ---

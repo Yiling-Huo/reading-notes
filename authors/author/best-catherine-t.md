@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Best, Catherine T
+author: BEST, Catherine T
 ---
