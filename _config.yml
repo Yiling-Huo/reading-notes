@@ -16,9 +16,13 @@ header_pages:
   - index.html
   - stars.html
   - tags.html
-  - authors/index.html
+  - authors.html
   - year.html
   - journals.html
+
+collections:
+  authors:
+    output: true
 
 plugins:
   - jekyll-feed

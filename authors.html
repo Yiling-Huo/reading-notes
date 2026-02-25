@@ -4,7 +4,7 @@ title: Authors
 permalink: /authors/
 ---
 
-{% assign strAuList = '' %}
+<!-- {% assign strAuList = '' %}
 {% for post in site.posts %}
     {% if post.author %}
         {% assign page_author_list = post.author | split: " and " %}
@@ -52,6 +52,42 @@ permalink: /authors/
             {% assign author_initial = author | slice: 0 | capitalize %}
                 {% if author_initial == initial %}
                 <li><a href="{{ site.baseurl }}/authors/author/{{ author_cleaned | slugify }}">{{ author }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </div>
+</div> -->
+
+{% assign initial_str = '' %}
+{% for author in site.authors %}
+    {% assign initial = author.author | slice: 0 | capitalize %}
+    {% if initial_str contains initial %}
+        {% assign initial_str = initial_str %}
+    {% else %}
+        {% assign initial_str = initial_str | append: '&' | append: initial %}
+    {% endif %}
+{% endfor %}
+
+<div class="home">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+    <div>
+        {% for initial in initList %}
+        <a href="#{{ initial | slugify }}" class="post-tag">{{ initial }}</a>
+        &#160 &#160
+        {% endfor %}
+    </div>
+    <hr class="brand"/>
+    <div>
+        {% for initial in initList %}
+        <p><h4 id="{{ initial | slugify }}">{{ initial }}</h4></p>
+        <ul class="post-meta-ul">
+            {% for author in site.authors %}
+                {% assign author_initial = author.author | slice: 0 | capitalize %}
+                {% if author_initial == initial %}
+                <li><a href="{{ author.url }}">{{ author.author }}</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
