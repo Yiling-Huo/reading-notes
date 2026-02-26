@@ -4,7 +4,7 @@ from unidecode import unidecode
 def main():
     inputdirs = ['References/_posts/','Article notes PhD/_posts/', 'Article notes 2025/_posts/']
 
-    outputdir = 'authors/'
+    outputdir = '_authors/'
     author_list = []
 
     for dir in inputdirs:
