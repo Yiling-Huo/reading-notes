@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Baer-henney, Dinah
+author: Baer-Henney, Dinah
 ---

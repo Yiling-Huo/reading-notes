@@ -1,4 +1,4 @@
 ---
 layout: author
-author: De Lange, Floris P
+author: de Lange, Floris P
 ---
