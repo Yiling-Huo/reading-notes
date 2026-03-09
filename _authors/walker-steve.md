@@ -1,4 +1,4 @@
 ---
 layout: author
-author: a, Ben Bolker
+author: Walker, Steve
 ---
