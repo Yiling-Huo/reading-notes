@@ -35,14 +35,14 @@ layout: base
           {% assign authors = page.author | split: " and " %}
             {%- for author in authors -%}
             {% assign last_first = author | split: ", " %}
-            <span class="p-author h-card" itemprop="name">{{ last_first | slice: 1 }} {{ last_first | slice: 0}}</span>
+            <a href="{{ site.baseurl }}/authors/{{ author | slugify }}"><span class="p-author h-card" itemprop="name">{{ last_first | slice: 1 }} {{ last_first | slice: 0}}</span></a>
             {%- if forloop.last == false %}, {% endif -%}
             {%- endfor -%}
             </li>
       {%- endif -%}
       {%- if page.journal -%}
       <li class="post-meta">
-          {{ page.journal }}
+          <a href="{{ site.baseurl }}/journals-all/#{{ journal | slugify }}">{{ page.journal }}</a>
       </li>
       {%- endif -%}
     </ul>
