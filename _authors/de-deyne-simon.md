@@ -1,4 +1,4 @@
 ---
 layout: author
-author: De Deyne, Simon
+author: de Deyne, Simon
 ---

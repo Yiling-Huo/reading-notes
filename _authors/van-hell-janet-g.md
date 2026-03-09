@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Van Hell, Janet G
+author: van Hell, Janet G
 ---
