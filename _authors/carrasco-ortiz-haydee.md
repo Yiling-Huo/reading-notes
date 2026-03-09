@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Carrasco-ortiz, Haydee
+author: Carrasco-Ortiz, Haydee
 ---

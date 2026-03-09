@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Chang, Yueh-Chin
+author: Chang, Yueh Chin
 ---

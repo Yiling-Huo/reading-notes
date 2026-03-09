@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Gelder, Beatrice de
+author: Gelder, Beatrice De
 ---

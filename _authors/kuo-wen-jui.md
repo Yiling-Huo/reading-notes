@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Kuo, Wen-Jui
+author: Kuo, Wen Jui
 ---

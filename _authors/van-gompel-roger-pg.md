@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Van Gompel, Roger PG
+author: van Gompel, Roger PG
 ---

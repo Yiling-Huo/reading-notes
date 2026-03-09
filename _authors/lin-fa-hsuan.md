@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Lin, Fa-Hsuan
+author: Lin, Fa Hsuan
 ---
