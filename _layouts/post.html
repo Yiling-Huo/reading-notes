@@ -35,7 +35,7 @@ layout: base
           {% assign authors = page.author | split: " and " %}
             {%- for author in authors -%}
             {% assign last_first = author | split: ", " %}
-            <a href="{{ site.baseurl }}/authors/{{ author | handleize }}"><span class="p-author h-card" itemprop="name">{{ last_first | slice: 1 }} {{ last_first | slice: 0}}</span></a>
+            <a href="{{ site.baseurl }}/authors/{{ author | slugify: 'latin' }}"><span class="p-author h-card" itemprop="name">{{ last_first | slice: 1 }} {{ last_first | slice: 0}}</span></a>
             {%- if forloop.last == false %}, {% endif -%}
             {%- endfor -%}
             </li>
