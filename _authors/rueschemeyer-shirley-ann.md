@@ -1,4 +1,4 @@
 ---
 layout: author
-author: Rueschemeyer, Shirley Ann
+author: Rueschemeyer, Shirley-Ann
 ---
